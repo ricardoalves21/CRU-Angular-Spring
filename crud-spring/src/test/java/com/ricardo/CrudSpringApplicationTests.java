@@ -1,4 +1,4 @@
-package com.ricardo.crudspring;
+package com.ricardo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
