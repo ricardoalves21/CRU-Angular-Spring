@@ -1,0 +1,5 @@
+{
+  "boot-java.support-spring-xml-config.on": true,
+  "editor.suggest.showProperties": true,
+  "java.compile.nullAnalysis.mode": "automatic"
+}
