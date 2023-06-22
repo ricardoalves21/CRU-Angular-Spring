@@ -11,6 +11,6 @@ export class CategoryPipe implements PipeTransform {
       case 'back-end':
         return 'computer';
     }
-    return 'code';
+    return '';
   }
 }
