@@ -4,10 +4,11 @@ import { ErrorDialogComponent } from './components/error-dialog/error-dialog.com
 import { AppMaterialModule } from './app-material/app-material.module';
 import { CategoryPipe } from './pipes/category.pipe';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ConfirmationDialogComponent } from '../courses/components/confirmation-dialog/confirmation-dialog.component';
 
 @NgModule({
-  declarations: [ErrorDialogComponent, CategoryPipe],
+  declarations: [ErrorDialogComponent, CategoryPipe, ConfirmationDialogComponent],
   imports: [CommonModule, AppMaterialModule],
-  exports: [ErrorDialogComponent, CategoryPipe, MatFormFieldModule],
+  exports: [ErrorDialogComponent, ConfirmationDialogComponent, CategoryPipe, MatFormFieldModule]
 })
 export class SharedModule {}
