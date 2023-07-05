@@ -9,5 +9,5 @@ export const courseResolver: ResolveFn<Course> = (route, state) => {
     return inject(CoursesService).searchCourseId(route.params['id']);
   }
 
-  return { _id: '', name: '', category: '' };
+  return { _id: '', name: '', category: '', lessons: [] };
 }
